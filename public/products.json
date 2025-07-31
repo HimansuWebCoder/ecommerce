@@ -1,0 +1,82 @@
+[
+    {
+        "itemName": "Breed Dry Dog Food",
+        "price": "$100",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    },
+    {
+        "itemName": "CANON EOS DSLR Camera",
+        "price": "$360",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    },
+    {
+        "itemName": "ASUS FHD Gaming Laptop",
+        "price": "$700",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    },
+     {
+        "itemName": "Curology Product Set ",
+        "price": "$500",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    },
+     {
+        "itemName": "Kids Electric Car",
+        "price": "$960",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    },
+    {
+        "itemName": "Kids Electric Car",
+        "price": "$960",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    },
+    {
+        "itemName": "Kids Electric Car",
+        "price": "$960",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    },
+    {
+        "itemName": "Kids Electric Car",
+        "price": "$960",
+        "discount": 15,
+        "discountedPrice": "$160",
+        "image": "https://i.pinimg.com/736x/87/65/45/876545622c6a0adb3c5e4d25bfc3cec2.jpg",
+        "rating": "",
+        "isLike": "",
+        "isShow": ""
+    }
+]
