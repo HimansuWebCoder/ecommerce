@@ -4,10 +4,10 @@ function ChoiceColor({isShowColor}) {
             {isShowColor ? (
             	<div className="max-w-10 grid grid-cols-2">
 	                   <div className="">
-	          	  	      <input className="accent-[#FB1314]" name="color" checked type="radio" />
+	          	  	      <input className="accent-[#FB1314]" name="color" defaultChecked type="radio" />
 		          	  </div>
 		          	  <div className="">
-	          	  	      <input className="accent-[#DB4444] bg-red-600 border-red-600" checked name="color" type="radio"  />
+	          	  	      <input className="accent-[#DB4444] bg-red-600 border-red-600" defaultChecked name="color" type="radio"  />
 	          	      </div>
           	  </div>
             	) : null}

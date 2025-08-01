@@ -10,7 +10,7 @@ function CategoryAdProduct() {
                     <div>
                         <h1 className="text-white text-4xl md:text-7xl font-bold font-inter">Enhance Your Music Experience</h1>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 h-auto md:grid-cols-4 md:w-fit gap-4 p-2">
+                    <div className="grid grid-cols-2 md:grid-cols-4 h-auto md:grid-cols-4 md:w-fit gap-4">
                         <div className="grid grid-cols-1 p-2 bg-white text-black place-content-center place-items-center rounded-full aspect-[1/1] border">
                             <div className="font-poppins font-bold text-lg">23</div>
                             <div className="font-poppins text-xs">Hours</div>

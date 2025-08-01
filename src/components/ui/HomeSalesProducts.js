@@ -21,7 +21,7 @@ function HomeSalesProducts({itemName, isShowDeleteIcon = false, isShowEyeIcon = 
                 <AddToCart isCartIconShow={isCartIconShow} isCartShow={isCartShow}/>
             </div>
             <div className="w-full text-left">
-                <h3 className="text-sm md:text-xl line-clamp-1 overflow-hidden text-ellipsis display[-webkit-box] 
+                <h3 className="text-sm md:text-xl line-clamp-1 md:line-clamp-none overflow-hidden text-ellipsis display [-webkit-box] 
               [-webkit-line-clamp:1] 
               [-webkit-box-orient:vertical] font-poppins">{itemName}</h3>
             </div>

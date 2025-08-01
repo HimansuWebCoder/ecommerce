@@ -4,101 +4,8 @@ import SubHeader from "./SubHeader";
 import Pagination from "./Pagination";
 import AddToCart from "./AddToCart";
 import IsHover from "./IsHover";
+import ourProducts from "../data/productsexplor.json";
 
-const ourProducts = [
-    {
-        itemName: "Breed Dry Dog Food",
-        price: "$100",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/dogfood.png",
-        rating: "",
-        isNew: false,
-        isShow: false,
-        isCartShow: false, 
-    },
-    {
-        itemName: "CANON EOS DSLR Camera",
-        price: "$360",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/dslrcamera.png",
-        rating: "",
-        isNew: false,
-        isShow: false,
-        isCartShow: true,
-    },
-    {
-        itemName: "ASUS FHD Gaming Laptop",
-        price: "$700",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/laptop.png",
-        rating: "",
-        isNew: false,
-        isShow: false,
-        isCartShow: false,
-    },
-     {
-        itemName: "Curology Product Set ",
-        price: "$500",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/curology-product.png",
-        rating: "",
-        isNew: false,
-        isShow: false,
-        isCartShow: false,
-    },
-     {
-        itemName: "Kids Electric Car",
-        price: "$960",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/electric-car.png",
-        rating: "",
-        isNew: true,
-        isShow: false,
-        isCartShow: false,
-        isShowColor: true,
-    },
-    {
-        itemName: "Jr. Zoom Soccer Cleats",
-        price: "$1160",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/soccer.png",
-        rating: "",
-        isNew: false,
-        isShow: false,
-        isCartShow: false,
-        isShowColor: true,
-    },
-    {
-        itemName: "GP11 Shooter USB Gamepad",
-        price: "$660",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/usbgamepad.png",
-        rating: "",
-        isNew: true,
-        isShow: false,
-        isCartShow: false,
-        isShowColor: true,
-    },
-    {
-        itemName: "Quilted Satin Jacket",
-        price: "$660",
-        discount: 15,
-        discountedPrice: "$160",
-        image: "./images/jacket.png",
-        rating: "",
-        isNew: false,
-        isShow: false,
-        isCartShow: false,
-        isShowColor: true,
-    },
-]
 function ProductExplore() {
     return (
       <div className="max-w-full flex justify-center flex-col items-center m-4 lg:m-14 md:m-10 sm:m-8 ">
@@ -133,11 +40,12 @@ function ProductExplore() {
                     </div>
                 ))}
             </div>
-            <div className="border border-black w-full h-5">
+            {/*<div className="border border-black w-full h-5">
             <IsHover Component={<SubHeader name="hover"/>} />
-            </div>
+            </div>*/}
       </div>
     )
 }
 
 export default ProductExplore;
+

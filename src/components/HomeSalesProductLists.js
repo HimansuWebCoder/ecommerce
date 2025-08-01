@@ -5,58 +5,8 @@ import SubHeader from "./ui/SubHeader";
 import Pagination from "./ui/Pagination";
 import HeaderSubheaderPaginationContainer from "./ui/HeaderSubheaderPaginationContainer"
 import Rating from "./ui/Rating";
-const productLists = [
-    {
-        itemName: "HAVIT HV-G92 Gamepad",
-        price: "$120",
-        discount: 40,
-        originalPrice: 160,
-        image: "./images/gamepad.png",
-        rating: 5,
-        isLike: "",
-        isShow: "",
-    },
-    {
-        itemName: "AK-900 Wired Keyboard",
-        price: "$960",
-        discount: 35,
-        originalPrice: 1160,
-        image: "./images/keyboard.png",
-        rating: 5,
-        isLike: "",
-        isShow: "",
-    },
-    {
-        itemName: "IPS LCD Gaming Monitor",
-        price: "$370",
-        discount: 30,
-        originalPrice: 400,
-        image: "./images/gaming-monitor.png",
-        rating: 4,
-        isLike: "",
-        isShow: "",
-    },
-     {
-        itemName: "S-Series Comfort Chair ",
-        price: "$375",
-        discount: 25,
-        originalPrice: 400,
-        image: "./images/chair.png",
-        rating: 5,
-        isLike: "",
-        isShow: "",
-    },
-     {
-        itemName: "HAVIT HV-G92 Gamepad",
-        price: "$120",
-        discount: 15,
-        originalPrice: 160,
-        image: "./images/keyboard.png",
-        rating: 5,
-        isLike: "",
-        isShow: "",
-    },
-]
+import productLists from "./data/homesalesdata.json";
+
 function HomeSalesProductLists() {
     return (
         <div className="max-w-full h-auto m-4 lg:m-14 md:m-10 sm:m-8 mt-10">

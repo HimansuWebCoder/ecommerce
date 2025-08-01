@@ -1,0 +1,46 @@
+[
+  {
+    "itemName": "The north coat",
+    "price": "$260",
+    "discount": 15,
+    "originalPrice": "$360",
+    "image": "./images/coat.png",
+    "rating": null,
+    "isLike": null,
+    "isNew": false,
+    "isShow": false
+  },
+  {
+    "itemName": "Gucci duffle bag",
+    "price": "$960",
+    "discount": 15,
+    "originalPrice": "$1160",
+    "image": "./images/bag.png",
+    "rating": null,
+    "isLike": null,
+    "isNew": false,
+    "isShow": false
+  },
+  {
+    "itemName": "RGB liquid CPU Cooler",
+    "price": "$160",
+    "discount": 15,
+    "originalPrice": "$170",
+    "image": "./images/rgbfan.png",
+    "rating": null,
+    "isLike": null,
+    "isNew": false,
+    "isShow": false
+  },
+  {
+    "itemName": "Small BookSelf",
+    "price": "$360",
+    "discount": 15,
+    "originalPrice": "$160",
+    "image": "./images/bookshelf.png",
+    "rating": null,
+    "isLike": null,
+    "isNew": false,
+    "isShow": false
+  }
+]

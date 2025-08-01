@@ -18,6 +18,9 @@ import TopScroll from "./components/TopScroll";
 import Search from "./components/ui/Search";
 import SideMenuItems from "./components/ui/SideMenuItems";
 import ButtonComp from "./components/ui/ButtonComp";
+import ModalForm from "./components/ui/ModalForm";
+import ModalProduct from "./components/ui/ModalProduct";
+import Modal from "./components/ui/Modal";
 const images = [
   { url: './images/image-slider.png' },
   { url: './images/image-slider.png' },
@@ -29,11 +32,14 @@ function App() {
    <div className="w-full h-auto">
      <Header />
      <Navbar />
+     {/*<ModalForm />*/}
      <div className="grid grid-cols-1 md:grid-cols-4 md:gap-4 m-4 md:m-14">
          <SideNav/>
          <ImageSlider images={images} />
      </div>
+     <Modal/>
      <HomeSalesProductLists/>
+     <ModalProduct />
      <ButtonComp linkname="View All Products" route="productdetails" buttonStyle="bg-[#db4444] max-w-fit md:max-w-fit h-auto p-3 rounded text-white mt-4" buttonContainerStyle="w-full h-auto text-center" />
      <HorizontalBar/>
      <ProductCategoryContainer />

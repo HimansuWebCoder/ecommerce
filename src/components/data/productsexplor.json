@@ -1,0 +1,94 @@
+[
+  {
+    "itemName": "Breed Dry Dog Food",
+    "price": "$100",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/dogfood.png",
+    "rating": "",
+    "isNew": false,
+    "isShow": false,
+    "isCartShow": false
+  },
+  {
+    "itemName": "CANON EOS DSLR Camera",
+    "price": "$360",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/dslrcamera.png",
+    "rating": "",
+    "isNew": false,
+    "isShow": false,
+    "isCartShow": true
+  },
+  {
+    "itemName": "ASUS FHD Gaming Laptop",
+    "price": "$700",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/laptop.png",
+    "rating": "",
+    "isNew": false,
+    "isShow": false,
+    "isCartShow": false
+  },
+  {
+    "itemName": "Curology Product Set",
+    "price": "$500",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/curology-product.png",
+    "rating": "",
+    "isNew": false,
+    "isShow": false,
+    "isCartShow": false
+  },
+  {
+    "itemName": "Kids Electric Car",
+    "price": "$960",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/electric-car.png",
+    "rating": "",
+    "isNew": true,
+    "isShow": false,
+    "isCartShow": false,
+    "isShowColor": true
+  },
+  {
+    "itemName": "Jr. Zoom Soccer Cleats",
+    "price": "$1160",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/soccer.png",
+    "rating": "",
+    "isNew": false,
+    "isShow": false,
+    "isCartShow": false,
+    "isShowColor": true
+  },
+  {
+    "itemName": "GP11 Shooter USB Gamepad",
+    "price": "$660",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/usbgamepad.png",
+    "rating": "",
+    "isNew": true,
+    "isShow": false,
+    "isCartShow": false,
+    "isShowColor": true
+  },
+  {
+    "itemName": "Quilted Satin Jacket",
+    "price": "$660",
+    "discount": 15,
+    "discountedPrice": "$160",
+    "image": "./images/jacket.png",
+    "rating": "",
+    "isNew": false,
+    "isShow": false,
+    "isCartShow": false,
+    "isShowColor": true
+  }
+]

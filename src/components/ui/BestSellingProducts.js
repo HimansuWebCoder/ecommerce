@@ -3,53 +3,7 @@ import HomeHeader from "./HomeHeader";
 import SubHeader from "./SubHeader";
 import Pagination from "./Pagination";
 import ProductViewsBtn from "./Product-view";
-
-const bestSellingProductLists = [
-    {
-        itemName: "The north coat",
-        price: "$260",
-        discount: 15,
-        originalPrice: "$360",
-        image: "./images/coat.png",
-        rating: "",
-        isLike: "",
-        isNew: false,
-        isShow: false,
-    },
-    {
-        itemName: "Gucci duffle bag",
-        price: "$960",
-        discount: 15,
-        originalPrice: "$1160",
-        image: "./images/bag.png",
-        rating: "",
-        isLike: "",
-        isNew: false,
-        isShow: false,
-    },
-    {
-        itemName: "RGB liquid CPU Cooler",
-        price: "$160",
-        discount: 15,
-        originalPrice: "$170",
-        image: "./images/rgbfan.png",
-        rating: "",
-        isLike: "",
-        isNew: false,
-        isShow: false,
-    },
-     {
-        itemName: "Small BookSelf",
-        price: "$360",
-        discount: 15,
-        originalPrice: "$160",
-        image: "./images/bookshelf.png",
-        rating: "",
-        isLike: "",
-        isNew: false,
-        isShow: false,
-    },
-]
+import bestSellingProductLists from "../data/bestsellingproducts.json";
 
 function BestSellingProducts() {
   return (
